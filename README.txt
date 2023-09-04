@@ -1,4 +1,9 @@
+To build and use this code locally, you should only need to clone/download a copy and import the project into IntelliJ by importing via the build.gradle file and running gradlew genIntellijRuns in the project's root dir
+You may need to download the Forge mdk file as well - https://files.minecraftforge.net/net/minecraftforge/forge/index_1.19.2.html
 
+
+
+FROM FORGE: 
 Source installation information for modders
 -------------------------------------------
 This code follows the Minecraft Forge installation methodology. It will apply
