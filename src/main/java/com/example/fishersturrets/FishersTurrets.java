@@ -1,6 +1,7 @@
 package com.example.fishersturrets;
 
-import com.example.fishersturrets.Blocks.TurretBase;
+import com.example.fishersturrets.block.ModBlocks;
+import com.example.fishersturrets.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.BlockItem;
@@ -34,6 +35,10 @@ public class FishersTurrets
 
     public FishersTurrets() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        // Register our custom items and blocks
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

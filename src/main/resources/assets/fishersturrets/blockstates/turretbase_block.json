@@ -1,0 +1,5 @@
+{
+  "variants" : {
+    "" : {"model" :  "fishersturrets:block/turretbase_block"}
+  }
+}
