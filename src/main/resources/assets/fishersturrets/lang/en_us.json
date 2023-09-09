@@ -1,5 +1,7 @@
 {
   "item.fishersturrets.turretbase": "Turret Base",
   "item.fishersturrets.turretgun": "Turret Gun",
+  "item.fishersturrets.turretbarrel": "Turret Barrel",
+  "item.fishersturrets.turretoptics": "Turret Optics",
   "block.fishersturrets.turretbase_block": "Turret Base"
 }

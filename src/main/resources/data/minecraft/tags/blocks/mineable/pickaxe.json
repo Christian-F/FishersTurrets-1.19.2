@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "fishersturrets:turretbase_block",
+    "fishersturrets:turretgun_block"
+  ]
+}

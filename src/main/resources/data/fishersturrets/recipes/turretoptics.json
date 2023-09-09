@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "gsg",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "g": {
+      "item": "minecraft:glass_pane"
+    },
+    "s": {
+      "item": "minecraft:spyglass"
+    }
+  },
+  "result": {
+    "item": "fishersturrets:turretoptics",
+    "count": 1
+  }
+}

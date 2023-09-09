@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " o ",
+    "bsr",
+    "iii"
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:iron_block"
+    },
+    "o": {
+      "item": "fishersturrets:turretoptics"
+    },
+    "b": {
+      "item": "fishersturrets:turretbarrel"
+    },
+    "s": {
+      "item": "minecraft:bow"
+    },
+    "r": {
+      "item": "minecraft:redstone_block"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "fishersturrets:turretbarrel",
+    "count": 1
+  }
+}

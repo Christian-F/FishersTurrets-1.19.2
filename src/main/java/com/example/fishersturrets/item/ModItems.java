@@ -17,6 +17,12 @@ public class ModItems {
     public static final RegistryObject<Item> TURRETGUN = ITEMS.register("turretgun",
             () -> new Item(new Item.Properties().stacksTo(1).tab(ModCreateiveModeTab.FISHERS_TURRETS_TAB)));
 
+    public static final RegistryObject<Item> TURRETBARREL = ITEMS.register("turretbarrel",
+            () -> new Item(new Item.Properties().stacksTo(1).tab(ModCreateiveModeTab.FISHERS_TURRETS_TAB)));
+
+    public static final RegistryObject<Item> TURRETOPTICS = ITEMS.register("turretoptics",
+            () -> new Item(new Item.Properties().stacksTo(1).tab(ModCreateiveModeTab.FISHERS_TURRETS_TAB)));
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }
